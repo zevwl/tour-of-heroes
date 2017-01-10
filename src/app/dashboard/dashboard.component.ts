@@ -4,10 +4,9 @@ import { Hero } from '../shared/hero';
 import { HeroService } from '../shared/hero.service';
 
 @Component({
-    // moduleId: module.id, // Cannot be used together with outDir in tsconfig.json
     selector: 'dashboard',
-    templateUrl: './app/dashboard/dashboard.component.html',
-    styleUrls: ['./app/dashboard/dashboard.component.css']
+    templateUrl: './dashboard.component.html',
+    styleUrls: ['./dashboard.component.scss']
 })
 export class DashboardComponent implements OnInit {
 

@@ -8,8 +8,8 @@ import { Hero } from '../shared/hero';
 
 @Component({
     selector: 'hero-search',
-    templateUrl: './app/hero-search/hero-search.component.html',
-    styleUrls: ['./app/hero-search/hero-search.component.css'],
+    templateUrl: './hero-search.component.html',
+    styleUrls: ['./hero-search.component.scss'],
     providers: [HeroSearchService]
 })
 export class HeroSearchComponent implements OnInit {
